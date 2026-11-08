@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+#header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    font-size: 42px;
+    font-family: Courier, monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+    font-family: sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.grid-content {
+    grid-template-columns: repeat(4, 200px);
+    gap: 30px;
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.grid-content > * {
+  grid-row: span 2;
+  grid-column: span 2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#differ {
+    grid-row: span 3;
+}
+
+.wix {
+    text-decoration: underline;
+}
+
+footer p {
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: center;
+}
+
+.bi-facebook,
+.bi-twitter,
+.bi-pinterest,
+.bi-dots {
+    display: block;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
 }

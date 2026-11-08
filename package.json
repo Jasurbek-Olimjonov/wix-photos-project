@@ -1,7 +1,8 @@
 {
-  "name": "project_1",
+  "name": "Wix photos project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^6.9.1",
@@ -10,6 +11,7 @@
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-scripts": "5.0.1",
+    "serve": "^14.2.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
